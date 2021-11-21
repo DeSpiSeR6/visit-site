@@ -35,8 +35,13 @@
 width: 500px;
 }
 .callIcon {
+    margin-left: 1140px;
+    margin-top: -65px;
+width: 50px;
+height: 50px;
+}
+.callIcon1 {
     
-    margin-top: -25px;
 width: 50px;
 height: 50px;
 }
@@ -108,11 +113,25 @@ h1 {
         padding-left: 100px;
         padding-right: 100px;
     }
+    .header {
+        margin-left: -100px;
+    }
 a {
     margin-left: -1900px;
     font-size: 20px;
 }
 .callIcon {
-     margin-left: 200px;
+    width: 50px;
+    height: 50px;
+    margin-top: -60px;
+     margin-left: 140px;
+}
+.callIcon1 {
+    width: 50px;
+    height: 50px;
+}
+.sale {
+    padding-top: 500px;
+    margin-left: -60px;
 }
 }

@@ -13,12 +13,14 @@ const Home = () => {
                 <div className={styles.center}>
                     <div className={styles.head}>
                         <ul>
-                            <li>Название</li>
+                            <li className={styles.header}>Название</li>
                         </ul>
                         <ul className={styles.call}>
-                            <img src={call} alt="" className={styles.callIcon} />
                             <li className={styles.number}><a href="tel:+1-555-555-1212">555-555-1212</a></li>
                         </ul>
+                        <div className={styles.callIcon}>
+                            <img src={call} alt="" className={styles.callIcon1} />
+                        </div>
                     </div>
                     <img src={worker} alt="" className={styles.img} />
                     <div className={styles.about}>
