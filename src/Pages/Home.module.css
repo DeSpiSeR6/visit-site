@@ -18,7 +18,7 @@
 .center {
     min-width: 5px;
     min-height: 800px;
-    background-color: rgb(32, 183, 233);   
+    background-color: rgb(32, 183, 233, 0.5);   
 
     padding-left: 120px;
     padding-bottom: 120px;
@@ -31,13 +31,8 @@
 
 }
 .img {
-
-    margin-left: 970px;
-    margin-top: 120px;
-    width: 500px;
-    height: 300px;
-    background-image:url(../media/visit.png);
-    background-size: cover;
+    margin-left: 700px;
+width: 500px;
 }
 .callIcon {
     
@@ -87,4 +82,37 @@ h1 {
 }
 .saleFont {
     transform: rotate(5deg);
+}
+@media screen and (max-width: 980px) {
+    .about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-left: -200px;
+        margin-top: -50px;
+       width: 95%;
+       width: 700px;
+       height: 200px;
+    }
+    .img {
+        margin-left: -100px;
+        padding: auto;
+        width: 95%;
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+    .center {
+        width: 500px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+a {
+    margin-left: -1900px;
+    font-size: 20px;
+}
+.callIcon {
+     margin-left: 200px;
+}
 }
