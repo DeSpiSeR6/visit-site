@@ -90,8 +90,8 @@ h1 {
 }
 @media screen and (max-width: 980px) {
     .background {
-        min-width:375px;
-        min-height:812px;
+        min-width:1375px;
+        min-height:1112px;
         background-image: url(../media/building.jpg);
         background-position: center;
         background-size: cover;
@@ -121,7 +121,7 @@ h1 {
         width: auto\9; /* ie8 */
     }
     .center {
-        min-width: 350px;
+        min-width: 500px;
         padding-left: 100px;
         padding-right: 100px;
     }
